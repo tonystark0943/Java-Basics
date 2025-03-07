@@ -13,10 +13,7 @@ public class q6 {
 	}
 	
 	public static boolean isOdd(int n) {
-		if(n%2==0)
-			return false;
-		else
-			return true;
+		return (n&1)!=0;
 	}
 
 }
