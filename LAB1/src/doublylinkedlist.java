@@ -79,6 +79,8 @@ public class doublylinkedlist {
 		// TODO Auto-generated method stub
 		start = creation(start);
 		display(start);
+		int c = countNode(start);
+		System.out.println(c);
 	}
 
 }
